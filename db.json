@@ -1,0 +1,505 @@
+{
+  "leads": [
+    {
+      "id": "ca128f78-6ce1-4006-bad2-a89d81891ad9",
+      "name": "Elizabeth Martinez",
+      "email": "elizabeth.martinez@example.com",
+      "phone": "+1-555-7850",
+      "status": "QUALIFIED",
+      "source": "website",
+      "created_at": "2026-03-30T04:43:14.632Z",
+      "updated_at": "2026-03-30T04:43:14.632Z"
+    },
+    {
+      "id": "ae323824-c556-43ee-93f7-ae81b8b1f429",
+      "name": "David Jones",
+      "email": "david.jones@example.com",
+      "phone": "+1-555-6322",
+      "status": "CONTACTED",
+      "source": "direct",
+      "created_at": "2026-02-04T18:53:38.555Z",
+      "updated_at": "2026-02-04T18:53:38.555Z"
+    },
+    {
+      "id": "79c90773-61bc-49ee-9724-51f7fa97ef5f",
+      "name": "Thomas Jackson",
+      "email": "thomas.jackson@example.com",
+      "phone": "+1-555-7769",
+      "status": "NEW",
+      "source": "referral",
+      "created_at": "2026-02-19T13:20:45.379Z",
+      "updated_at": "2026-02-19T13:20:45.379Z"
+    },
+    {
+      "id": "509e9d75-36d4-4605-8853-7908de797b55",
+      "name": "William Martinez",
+      "email": "william.martinez@example.com",
+      "phone": "+1-555-1612",
+      "status": "CONTACTED",
+      "source": "direct",
+      "created_at": "2026-01-24T03:32:20.969Z",
+      "updated_at": "2026-01-24T03:32:20.969Z"
+    },
+    {
+      "id": "e75a0078-65af-4f64-a3e2-7979d89a5b22",
+      "name": "James Lopez",
+      "email": "james.lopez@example.com",
+      "phone": "+1-555-8206",
+      "status": "NEW",
+      "source": "referral",
+      "created_at": "2026-03-23T14:08:49.426Z",
+      "updated_at": "2026-03-23T14:08:49.426Z"
+    },
+    {
+      "id": "1c0d5edf-8aea-4a12-8934-ef2416e3540e",
+      "name": "Thomas Taylor",
+      "email": "thomas.taylor@example.com",
+      "phone": "+1-555-8942",
+      "status": "CONVERTED",
+      "source": "referral",
+      "created_at": "2026-02-26T20:26:48.355Z",
+      "updated_at": "2026-02-26T20:26:48.355Z"
+    },
+    {
+      "id": "252d3df0-df0e-489a-b07d-450b9aaa8ecb",
+      "name": "John Hernandez",
+      "email": "john.hernandez@example.com",
+      "phone": "+1-555-9041",
+      "status": "LOST",
+      "source": "website",
+      "created_at": "2026-04-27T08:20:44.280Z",
+      "updated_at": "2026-04-27T08:20:44.280Z"
+    },
+    {
+      "id": "f4f2df23-5234-493d-8ba4-f91b42f15be7",
+      "name": "Elizabeth Martin",
+      "email": "elizabeth.martin@example.com",
+      "phone": "+1-555-2083",
+      "status": "QUALIFIED",
+      "source": "campaign",
+      "created_at": "2026-02-27T04:36:19.839Z",
+      "updated_at": "2026-02-27T04:36:19.839Z"
+    },
+    {
+      "id": "cdc31c81-b980-47be-84db-3ebd57d3ff4e",
+      "name": "Joseph Smith",
+      "email": "joseph.smith@example.com",
+      "phone": "+1-555-3376",
+      "status": "CONVERTED",
+      "source": "direct",
+      "created_at": "2026-03-06T08:31:29.430Z",
+      "updated_at": "2026-03-06T08:31:29.430Z"
+    },
+    {
+      "id": "15bf702b-c743-4174-904e-27d93c79f6b7",
+      "name": "Michael Thomas",
+      "email": "michael.thomas@example.com",
+      "phone": "+1-555-3378",
+      "status": "CONVERTED",
+      "source": "website",
+      "created_at": "2026-01-23T12:10:15.361Z",
+      "updated_at": "2026-01-23T12:10:15.361Z"
+    },
+    {
+      "id": "d572df68-7f5d-428a-b4d0-1a9af997994c",
+      "name": "Richard Hernandez",
+      "email": "richard.hernandez@example.com",
+      "phone": "+1-555-7741",
+      "status": "NEW",
+      "source": "direct",
+      "created_at": "2026-04-02T11:12:24.471Z",
+      "updated_at": "2026-04-02T11:12:24.471Z"
+    },
+    {
+      "id": "3304fc7a-1b88-4ba7-92ec-c70e4ccb77a4",
+      "name": "Jennifer Jackson",
+      "email": "jennifer.jackson@example.com",
+      "phone": "+1-555-2960",
+      "status": "QUALIFIED",
+      "source": "direct",
+      "created_at": "2026-04-12T02:05:56.929Z",
+      "updated_at": "2026-04-12T02:05:56.929Z"
+    },
+    {
+      "id": "c3caf425-0a88-48b2-971a-98e09f58b793",
+      "name": "James Smith",
+      "email": "james.smith@example.com",
+      "phone": "+1-555-7953",
+      "status": "NEW",
+      "source": "direct",
+      "created_at": "2026-03-05T20:51:33.898Z",
+      "updated_at": "2026-03-05T20:51:33.898Z"
+    },
+    {
+      "id": "2a3a2420-991d-4346-9b35-e733f1695eb3",
+      "name": "Barbara Lopez",
+      "email": "barbara.lopez@example.com",
+      "phone": "+1-555-6513",
+      "status": "CONVERTED",
+      "source": "website",
+      "created_at": "2026-04-12T20:38:53.967Z",
+      "updated_at": "2026-04-12T20:38:53.967Z"
+    },
+    {
+      "id": "09eca446-028e-4ccc-92c4-3ad5b602501a",
+      "name": "Michael Lopez",
+      "email": "michael.lopez@example.com",
+      "phone": "+1-555-7647",
+      "status": "CONTACTED",
+      "source": "campaign",
+      "created_at": "2026-03-16T20:04:05.986Z",
+      "updated_at": "2026-03-16T20:04:05.986Z"
+    },
+    {
+      "id": "bd9b6564-9fdf-447a-b477-2457d037caa5",
+      "name": "Robert Moore",
+      "email": "robert.moore@example.com",
+      "phone": "+1-555-6577",
+      "status": "CONVERTED",
+      "source": "direct",
+      "created_at": "2026-02-06T16:23:47.870Z",
+      "updated_at": "2026-02-06T16:23:47.870Z"
+    },
+    {
+      "id": "93dc8434-f8be-4f03-ab59-eae0abe8f48d",
+      "name": "John Davis",
+      "email": "john.davis@example.com",
+      "phone": "+1-555-8075",
+      "status": "QUALIFIED",
+      "source": "website",
+      "created_at": "2026-03-29T00:31:43.765Z",
+      "updated_at": "2026-03-29T00:31:43.765Z"
+    },
+    {
+      "id": "cd8e6410-f41b-4c0a-8e49-26c66f2df6f6",
+      "name": "Charles Gonzalez",
+      "email": "charles.gonzalez@example.com",
+      "phone": "+1-555-8569",
+      "status": "NEW",
+      "source": "direct",
+      "created_at": "2026-01-24T21:29:41.351Z",
+      "updated_at": "2026-01-24T21:29:41.351Z"
+    },
+    {
+      "id": "7cc95f95-e5a3-4712-a9bc-9d8bc28c8b43",
+      "name": "John Anderson",
+      "email": "john.anderson@example.com",
+      "phone": "+1-555-6263",
+      "status": "CONTACTED",
+      "source": "direct",
+      "created_at": "2026-04-04T13:30:28.716Z",
+      "updated_at": "2026-04-04T13:30:28.716Z"
+    },
+    {
+      "id": "14b7c813-8dc0-4a4c-9419-957351944db7",
+      "name": "James Lopez",
+      "email": "james.lopez@example.com",
+      "phone": "+1-555-2621",
+      "status": "CONVERTED",
+      "source": "website",
+      "created_at": "2026-03-15T04:22:00.225Z",
+      "updated_at": "2026-03-15T04:22:00.225Z"
+    },
+    {
+      "id": "474c89b5-67cf-48f4-a038-9c8a39a7dac6",
+      "name": "Karen Garcia",
+      "email": "karen.garcia@example.com",
+      "phone": "+1-555-1749",
+      "status": "NEW",
+      "source": "referral",
+      "created_at": "2026-03-14T13:47:32.496Z",
+      "updated_at": "2026-03-14T13:47:32.496Z"
+    },
+    {
+      "id": "338bd6ff-6dae-4518-bb93-a52119544a9f",
+      "name": "Robert Davis",
+      "email": "robert.davis@example.com",
+      "phone": "+1-555-7624",
+      "status": "CONVERTED",
+      "source": "referral",
+      "created_at": "2026-01-18T20:36:00.956Z",
+      "updated_at": "2026-01-18T20:36:00.956Z"
+    },
+    {
+      "id": "d1db2ab1-4fcd-4590-9386-1467452ab547",
+      "name": "Thomas Taylor",
+      "email": "thomas.taylor@example.com",
+      "phone": "+1-555-7982",
+      "status": "QUALIFIED",
+      "source": "website",
+      "created_at": "2026-05-08T22:10:47.818Z",
+      "updated_at": "2026-05-08T22:10:47.818Z"
+    },
+    {
+      "id": "9e0ba5d1-36ba-40c4-998e-9afb00a138dd",
+      "name": "Richard Johnson",
+      "email": "richard.johnson@example.com",
+      "phone": "+1-555-3029",
+      "status": "CONVERTED",
+      "source": "website",
+      "created_at": "2026-05-03T20:20:58.237Z",
+      "updated_at": "2026-05-03T20:20:58.237Z"
+    },
+    {
+      "id": "60dcc632-ab70-46f3-b8bf-64d45a7baa39",
+      "name": "Karen Jackson",
+      "email": "karen.jackson@example.com",
+      "phone": "+1-555-4970",
+      "status": "CONTACTED",
+      "source": "website",
+      "created_at": "2026-03-09T00:21:18.010Z",
+      "updated_at": "2026-03-09T00:21:18.010Z"
+    },
+    {
+      "id": "67c8668d-fab5-4e94-a50f-ba36a3efe617",
+      "name": "Michael Thomas",
+      "email": "michael.thomas@example.com",
+      "phone": "+1-555-1664",
+      "status": "CONTACTED",
+      "source": "website",
+      "created_at": "2026-04-13T11:26:06.155Z",
+      "updated_at": "2026-04-13T11:26:06.155Z"
+    },
+    {
+      "id": "e86e3e25-531c-497d-a667-3dd1b45ec904",
+      "name": "David Hernandez",
+      "email": "david.hernandez@example.com",
+      "phone": "+1-555-9437",
+      "status": "QUALIFIED",
+      "source": "website",
+      "created_at": "2026-04-12T22:43:40.310Z",
+      "updated_at": "2026-04-12T22:43:40.310Z"
+    },
+    {
+      "id": "42e317b5-2345-4422-8de9-f8fd26bfe858",
+      "name": "William Brown",
+      "email": "william.brown@example.com",
+      "phone": "+1-555-1966",
+      "status": "NEW",
+      "source": "campaign",
+      "created_at": "2026-01-22T17:35:27.888Z",
+      "updated_at": "2026-01-22T17:35:27.888Z"
+    },
+    {
+      "id": "bf3bf253-65f8-48df-8fb8-137637ee7f35",
+      "name": "Charles Williams",
+      "email": "charles.williams@example.com",
+      "phone": "+1-555-7056",
+      "status": "CONTACTED",
+      "source": "direct",
+      "created_at": "2026-02-26T15:19:29.609Z",
+      "updated_at": "2026-02-26T15:19:29.609Z"
+    },
+    {
+      "id": "4563053e-7b85-4077-ba37-078429bfa3d1",
+      "name": "Charles Anderson",
+      "email": "charles.anderson@example.com",
+      "phone": "+1-555-8249",
+      "status": "CONTACTED",
+      "source": "direct",
+      "created_at": "2026-04-01T06:23:05.179Z",
+      "updated_at": "2026-04-01T06:23:05.179Z"
+    },
+    {
+      "id": "184bcf32-83a6-4c39-9f95-226fe742b9ee",
+      "name": "Jennifer Taylor",
+      "email": "jennifer.taylor@example.com",
+      "phone": "+1-555-6768",
+      "status": "QUALIFIED",
+      "source": "website",
+      "created_at": "2026-05-01T16:25:36.988Z",
+      "updated_at": "2026-05-01T16:25:36.988Z"
+    },
+    {
+      "id": "a4f99f98-934a-4e4c-8598-7d51df2edfc4",
+      "name": "John Gonzalez",
+      "email": "john.gonzalez@example.com",
+      "phone": "+1-555-4679",
+      "status": "LOST",
+      "source": "website",
+      "created_at": "2026-03-09T16:57:14.488Z",
+      "updated_at": "2026-03-09T16:57:14.488Z"
+    },
+    {
+      "id": "4f3d952e-86c2-4bdc-9972-e18c9dc6265f",
+      "name": "Karen Gonzalez",
+      "email": "karen.gonzalez@example.com",
+      "phone": "+1-555-7342",
+      "status": "NEW",
+      "source": "direct",
+      "created_at": "2026-01-23T14:03:53.876Z",
+      "updated_at": "2026-01-23T14:03:53.876Z"
+    },
+    {
+      "id": "9504ea24-62db-4d02-ac99-031e49d6c3da",
+      "name": "Elizabeth Moore",
+      "email": "elizabeth.moore@example.com",
+      "phone": "+1-555-2833",
+      "status": "CONVERTED",
+      "source": "website",
+      "created_at": "2026-05-04T06:38:35.531Z",
+      "updated_at": "2026-05-04T06:38:35.531Z"
+    },
+    {
+      "id": "7b08a9a3-06e4-4490-9126-a36684378c18",
+      "name": "Mary Martinez",
+      "email": "mary.martinez@example.com",
+      "phone": "+1-555-9838",
+      "status": "CONVERTED",
+      "source": "campaign",
+      "created_at": "2026-01-22T15:15:42.848Z",
+      "updated_at": "2026-01-22T15:15:42.848Z"
+    },
+    {
+      "id": "0bd39504-5099-4a40-928b-36b1da91c80e",
+      "name": "Patricia Anderson",
+      "email": "patricia.anderson@example.com",
+      "phone": "+1-555-3584",
+      "status": "CONTACTED",
+      "source": "website",
+      "created_at": "2026-03-14T02:37:37.639Z",
+      "updated_at": "2026-03-14T02:37:37.639Z"
+    },
+    {
+      "id": "79207695-a4e0-4a6c-a764-04f3e50efb89",
+      "name": "Jennifer Hernandez",
+      "email": "jennifer.hernandez@example.com",
+      "phone": "+1-555-8900",
+      "status": "QUALIFIED",
+      "source": "referral",
+      "created_at": "2026-04-28T07:18:56.975Z",
+      "updated_at": "2026-04-28T07:18:56.975Z"
+    },
+    {
+      "id": "20982b91-9165-4136-bbdd-54d8107c3c9a",
+      "name": "William Rodriguez",
+      "email": "william.rodriguez@example.com",
+      "phone": "+1-555-4040",
+      "status": "QUALIFIED",
+      "source": "website",
+      "created_at": "2026-02-05T16:52:29.166Z",
+      "updated_at": "2026-02-05T16:52:29.166Z"
+    },
+    {
+      "id": "058bdd00-a8fe-445b-ba86-fa7db7358016",
+      "name": "William Martinez",
+      "email": "william.martinez@example.com",
+      "phone": "+1-555-1164",
+      "status": "CONTACTED",
+      "source": "referral",
+      "created_at": "2026-03-09T02:21:50.457Z",
+      "updated_at": "2026-03-09T02:21:50.457Z"
+    },
+    {
+      "id": "a3343e9d-6518-4b3f-9a08-ee6e0e6fe7b8",
+      "name": "Elizabeth Wilson",
+      "email": "elizabeth.wilson@example.com",
+      "phone": "+1-555-2929",
+      "status": "LOST",
+      "source": "referral",
+      "created_at": "2026-05-02T07:19:33.707Z",
+      "updated_at": "2026-05-02T07:19:33.707Z"
+    },
+    {
+      "id": "7b4dd52c-963b-4c85-a555-ae482904f146",
+      "name": "John Martinez",
+      "email": "john.martinez@example.com",
+      "phone": "+1-555-3540",
+      "status": "LOST",
+      "source": "website",
+      "created_at": "2026-02-03T23:26:32.251Z",
+      "updated_at": "2026-02-03T23:26:32.251Z"
+    },
+    {
+      "id": "df3fc4d6-2b00-4415-b86e-ad83f5f45d37",
+      "name": "Jessica Garcia",
+      "email": "jessica.garcia@example.com",
+      "phone": "+1-555-7353",
+      "status": "CONTACTED",
+      "source": "direct",
+      "created_at": "2026-04-30T21:58:15.580Z",
+      "updated_at": "2026-04-30T21:58:15.580Z"
+    },
+    {
+      "id": "2ea719d1-7dbc-4a40-ad67-31b23bbeb5e4",
+      "name": "Elizabeth Martin",
+      "email": "elizabeth.martin@example.com",
+      "phone": "+1-555-5294",
+      "status": "NEW",
+      "source": "direct",
+      "created_at": "2026-05-08T20:32:40.628Z",
+      "updated_at": "2026-05-08T20:32:40.628Z"
+    },
+    {
+      "id": "a5d437bd-af99-42d8-bb7b-499d50b012e1",
+      "name": "Sarah Martin",
+      "email": "sarah.martin@example.com",
+      "phone": "+1-555-2221",
+      "status": "QUALIFIED",
+      "source": "referral",
+      "created_at": "2026-01-31T14:04:28.776Z",
+      "updated_at": "2026-01-31T14:04:28.776Z"
+    },
+    {
+      "id": "3056808f-5826-40e9-983a-2d5f248a640c",
+      "name": "Richard Martinez",
+      "email": "richard.martinez@example.com",
+      "phone": "+1-555-3949",
+      "status": "LOST",
+      "source": "referral",
+      "created_at": "2026-05-03T13:48:06.543Z",
+      "updated_at": "2026-05-03T13:48:06.543Z"
+    },
+    {
+      "id": "6c1457dd-13d6-441a-8380-55749017f3e1",
+      "name": "Linda Gonzalez",
+      "email": "linda.gonzalez@example.com",
+      "phone": "+1-555-7859",
+      "status": "CONVERTED",
+      "source": "website",
+      "created_at": "2026-01-21T11:09:22.241Z",
+      "updated_at": "2026-01-21T11:09:22.241Z"
+    },
+    {
+      "id": "6a36573f-10f0-4b25-afdc-b1ae9deb4eb8",
+      "name": "John Hernandez",
+      "email": "john.hernandez@example.com",
+      "phone": "+1-555-3688",
+      "status": "QUALIFIED",
+      "source": "referral",
+      "created_at": "2026-02-19T20:55:25.727Z",
+      "updated_at": "2026-02-19T20:55:25.727Z"
+    },
+    {
+      "id": "4ee7bafc-f139-465f-88ea-09ec93dc5b3e",
+      "name": "Thomas Martinez",
+      "email": "thomas.martinez@example.com",
+      "phone": "+1-555-4283",
+      "status": "NEW",
+      "source": "direct",
+      "created_at": "2026-03-22T19:43:11.987Z",
+      "updated_at": "2026-03-22T19:43:11.987Z"
+    },
+    {
+      "id": "689dcfcf-9290-4f51-b630-0b3604dd32ac",
+      "name": "Thomas Thomas",
+      "email": "thomas.thomas@example.com",
+      "phone": "+1-555-9996",
+      "status": "LOST",
+      "source": "campaign",
+      "created_at": "2026-03-17T06:36:50.155Z",
+      "updated_at": "2026-03-17T06:36:50.155Z"
+    },
+    {
+      "id": "0c79d07c-c5e4-4270-bf78-0ccd8ae665b1",
+      "name": "James Garcia",
+      "email": "james.garcia@example.com",
+      "phone": "+1-555-9720",
+      "status": "QUALIFIED",
+      "source": "campaign",
+      "created_at": "2026-04-16T01:09:01.729Z",
+      "updated_at": "2026-04-16T01:09:01.729Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
