@@ -64,7 +64,14 @@ export function LeadForm({ initialData, onSubmit, onCancel }: LeadFormProps) {
           type="text"
           className="form-input"
           value={formData.name}
-          onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+          onChange={(e) => {
+            setFormData({ ...formData, name: e.target.value });
+            if (errors.name) {
+              const newErrors = { ...errors };
+              delete newErrors.name;
+              setErrors(newErrors);
+            }
+          }}
           placeholder="Jane Doe"
         />
         {errors.name && <div className="form-error">{errors.name}</div>}
@@ -76,7 +83,14 @@ export function LeadForm({ initialData, onSubmit, onCancel }: LeadFormProps) {
           type="email"
           className="form-input"
           value={formData.email}
-          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+          onChange={(e) => {
+            setFormData({ ...formData, email: e.target.value });
+            if (errors.email) {
+              const newErrors = { ...errors };
+              delete newErrors.email;
+              setErrors(newErrors);
+            }
+          }}
           placeholder="jane@example.com"
         />
         {errors.email && <div className="form-error">{errors.email}</div>}
@@ -130,7 +144,7 @@ export function LeadForm({ initialData, onSubmit, onCancel }: LeadFormProps) {
         <button type="button" className="btn btn-ghost" onClick={onCancel} disabled={isSubmitting}>
           Cancel
         </button>
-        <button type="submit" className="btn btn-primary" disabled={isSubmitting || Object.keys(errors).length > 0}>
+        <button type="submit" className="btn btn-primary" disabled={isSubmitting}>
           {isSubmitting ? 'Saving...' : initialData ? 'Update Lead' : 'Create Lead'}
         </button>
       </div>
